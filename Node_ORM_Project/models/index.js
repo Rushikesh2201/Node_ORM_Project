@@ -4,7 +4,7 @@ const {Sequelize , DataTypes} = require('sequelize');
                                 //dbname,   username,   password
 const sequelize = new Sequelize('training', 'root', 'mynewpassword' , {
     host : 'localhost',
-    dialect : 'mongodb',
+    dialect : 'mysql',
     //logging : false, //for off unwanted message on console
 });
 
